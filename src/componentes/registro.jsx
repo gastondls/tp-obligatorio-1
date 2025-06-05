@@ -1,15 +1,17 @@
 import React from 'react';
-import './formulario.css';
+import './registro.css';
 
 function Registrar (){
     return (
 
-        <>
+        
         <div className="container">
+        
         <h1>Registrate Aqui:</h1>
+        
         <form className='formulario'>
             <div>
-                <label>Nombre</label>
+                <label>Nombre:</label>
                 <input type='text' name='nombre'/>
             </div>
 
@@ -36,8 +38,9 @@ function Registrar (){
 
             <button type='submit'> Enviar </button>
         </form>
+
         </div>
-        </>
+        
     );
 }
 export default Registrar
